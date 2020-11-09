@@ -26,7 +26,7 @@ describe("Escrow", function() {
     it("should revert", async () => {
         let ex;
         try {
-            await contract.approve({ from: beneficiary.getAddress() });
+            await contract.connect(beneficiary).approve();
         }
         catch (_ex) {
             ex = _ex;
