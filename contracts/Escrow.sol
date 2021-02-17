@@ -1,4 +1,5 @@
-pragma solidity ^0.6.2;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.7.5;
 
 contract Escrow {
 	address public arbiter;
@@ -7,7 +8,7 @@ contract Escrow {
 
 	bool public isApproved;
 
-	constructor(address _arbiter, address payable _beneficiary) public payable {
+	constructor(address _arbiter, address payable _beneficiary) payable {
 		arbiter = _arbiter;
 		beneficiary = _beneficiary;
 		depositor = msg.sender;

@@ -12,13 +12,11 @@ There are three top-level folders:
 
 ## Setup
 
-Install dependencies with `npm install`.
+Install dependencies in the top-level directory with `npm install`.
 
-## Contracts
+After you have installed hardhat locally, you can use commands to test and compile the contracts, among other things. To learn more about these commands run `npx hardhat help`.
 
-You can use hardhat commands to test and compile the contracts, among other things.
-
-To learn more about these commands run `npx hardhat help`.
+Compile the contracts using `npx hardhat compile`. The artifacts will be placed in the `/app` folder, which will make it available to the front-end. This path configuration can be found in the `hardhat.config.js` file.
 
 ## Front-End
 
