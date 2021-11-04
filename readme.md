@@ -20,6 +20,6 @@ Compile the contracts using `npx hardhat compile`. The artifacts will be placed 
 
 ## Front-End
 
-To run the front-end application move into the `app` folder and run `parcel index.html`.
+To run the front-end application move into the `app` folder and run `npx parcel index.html`.
 
 You can learn more about Parcel [here](https://parceljs.org/).

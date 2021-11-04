@@ -12,10 +12,12 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0",
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.2.0",
     "ethers": "^5.0.19",
     "hardhat": "^2.0.2",
+    "parcel": "^2.0.0",
     "sass": "^1.29.0"
   },
   "browserslist": [
